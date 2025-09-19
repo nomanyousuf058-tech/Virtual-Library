@@ -1,0 +1,48 @@
+.rtl-layout {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl-layout .sidebar {
+  right: 0;
+  left: auto;
+}
+
+.rtl-layout .dropdown-menu {
+  right: 0;
+  left: auto;
+  text-align: right;
+}
+
+.rtl-layout .form-group input,
+.rtl-layout .form-group textarea {
+  text-align: right;
+}
+
+.rtl-layout .btn-group .btn:not(:last-child) {
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.rtl-layout .btn-group .btn:not(:first-child) {
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.rtl-layout .modal-header .close {
+  margin: -1rem auto -1rem -1rem;
+}
+
+.rtl-layout .alert {
+  text-align: right;
+}
+
+.rtl-layout .breadcrumb-item + .breadcrumb-item::before {
+  content: "\\2039";
+  float: right;
+  padding-left: 0.5rem;
+  padding-right: 0;
+}
+
+.rtl-layout .form-check-input {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}

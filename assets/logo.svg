@@ -1,0 +1,13 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; }
+    .logo-icon { fill: #4F46E5; }
+  </style>
+  <g>
+    <!-- Book Icon -->
+    <path class="logo-icon" d="M10 10 L10 40 L30 40 L30 10 Z M15 15 L25 15 M15 20 L25 20 M15 25 L25 25"/>
+    <!-- Wave/Pages -->
+    <path fill="#4F46E5" d="M30 10 C35 15 35 35 30 40 L40 40 C45 35 45 15 40 10 Z"/>
+    <text x="55" y="30" class="logo-text">ReadVerse</text>
+  </g>
+</svg>
